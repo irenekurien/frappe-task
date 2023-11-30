@@ -3,7 +3,7 @@ name = "loan_management"
 authors = [
     { name = "irene", email = "irenekurien01@gmail.com"}
 ]
-description = "An app for managing loans and its pledges"
+description = "An app to manage loan and pledges"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

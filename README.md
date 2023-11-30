@@ -1,6 +1,6 @@
 ## Loan Management
 
-An app for managing loans and its pledges
+An app to manage loan and pledges
 
 #### License
 

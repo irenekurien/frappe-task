@@ -1,7 +1,7 @@
 app_name = "loan_management"
 app_title = "Loan Management"
 app_publisher = "irene"
-app_description = "An app for managing loans and its pledges"
+app_description = "An app to manage loan and pledges"
 app_email = "irenekurien01@gmail.com"
 app_license = "mit"
 # required_apps = []
