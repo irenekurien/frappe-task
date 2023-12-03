@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 16:43:29.265253",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_i9cn",
+  "stock_id",
+  "number_of_shares",
+  "stock_name",
+  "stock_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_i9cn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stock_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stock ID",
+   "options": "Stock",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_shares",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Number of Shares",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stock_name",
+   "fieldtype": "Data",
+   "label": "Stock Name"
+  },
+  {
+   "fieldname": "stock_price",
+   "fieldtype": "Float",
+   "label": "Stock Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-03 15:33:49.972920",
+ "modified_by": "Administrator",
+ "module": "Loan Management",
+ "name": "UserStock",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

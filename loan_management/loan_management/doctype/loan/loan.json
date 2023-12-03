@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 16:36:15.763988",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_r7qp",
+  "amount",
+  "term",
+  "status",
+  "pledge",
+  "outstanding_interest",
+  "penalty_charges",
+  "repaid_principal",
+  "ltv_ratio"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_r7qp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "term",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Term",
+   "reqd": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nApproved\nRejected",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pledge",
+   "fieldtype": "Link",
+   "label": "Pledge",
+   "options": "Pledges"
+  },
+  {
+   "fieldname": "outstanding_interest",
+   "fieldtype": "Float",
+   "label": "Outstanding interest"
+  },
+  {
+   "fieldname": "penalty_charges",
+   "fieldtype": "Float",
+   "label": "Penalty charges"
+  },
+  {
+   "fieldname": "repaid_principal",
+   "fieldtype": "Float",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "ltv_ratio",
+   "fieldtype": "Float",
+   "label": "LTV Ratio"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Principal Amount",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-03 20:19:58.337267",
+ "modified_by": "Administrator",
+ "module": "Loan Management",
+ "name": "Loan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 16:40:29.388472",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_l4gw",
+  "stock_id",
+  "number_of_share",
+  "price",
+  "loan_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_l4gw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stock_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stock ID",
+   "options": "UserStock",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_share",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Number of share",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "reqd": 1
+  },
+  {
+   "fieldname": "loan_id",
+   "fieldtype": "Link",
+   "label": "Loan ID",
+   "options": "Loan",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-03 17:13:40.503891",
+ "modified_by": "Administrator",
+ "module": "Loan Management",
+ "name": "Pledges",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

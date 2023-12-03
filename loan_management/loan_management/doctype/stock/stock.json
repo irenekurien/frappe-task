@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 17:07:50.080994",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_lcgn",
+  "stock_id",
+  "instrument_id",
+  "tradingsymbol",
+  "isin",
+  "security_type",
+  "haircut",
+  "latest_price",
+  "valid_from",
+  "valid_upto",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_lcgn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stock_id",
+   "fieldtype": "Data",
+   "label": "stock_id"
+  },
+  {
+   "fieldname": "instrument_id",
+   "fieldtype": "Data",
+   "label": "instrument_id"
+  },
+  {
+   "fieldname": "tradingsymbol",
+   "fieldtype": "Data",
+   "label": "tradingsymbol"
+  },
+  {
+   "fieldname": "isin",
+   "fieldtype": "Data",
+   "label": "isin"
+  },
+  {
+   "fieldname": "security_type",
+   "fieldtype": "Data",
+   "label": "security_type"
+  },
+  {
+   "fieldname": "haircut",
+   "fieldtype": "Float",
+   "label": "haircut"
+  },
+  {
+   "fieldname": "latest_price",
+   "fieldtype": "Currency",
+   "label": "latest_price"
+  },
+  {
+   "fieldname": "valid_from",
+   "fieldtype": "Datetime",
+   "label": "valid_from"
+  },
+  {
+   "fieldname": "valid_upto",
+   "fieldtype": "Datetime",
+   "label": "valid_upto"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Stock",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-02 19:25:02.968215",
+ "modified_by": "Administrator",
+ "module": "Loan Management",
+ "name": "Stock",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
